@@ -1,70 +1,24 @@
 ---
-title: "Welcome to STA 199"
+title: "Welcome to REN R 213"
 subtitle: "Lecture 0"
-date: "January 11, 2024"
+date: "January 6, 2025"
 format: revealjs
 ---
 
-# Hello world!
-
-```{r}
-#| echo: false
-library(countdown)
-```
 
 ## Meet the prof
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
-Dr. Mine Çetinkaya-Rundel
+Dr. Glen W. Armstrong
 
-Professor of the Practice
-
-Old Chem 213
+Associate Professor
 :::
 
 ::: {.column width="50%"}
-![](images/mine.png){fig-alt="Headshot of Dr. Mine Çetinkaya-Rundel" fig-align="center"}
+![](images/glen.png){fig-alt="Headshot of Dr. Glen W. Armstrong" fig-align="center"}
 :::
-:::
-
-## Meet the course team {.smaller}
-
-::: columns
-::: {.column width="50%"}
--   Mary Knox (Course coordinator)
--   Betsy Bersson (Head TA)
--   Chris Oswald
--   Jasmine Wang
--   Mert Bildirici
--   Will Tirone
--   Krish Bansal
--   Caitrin Murphy
--   Avery Hodges
--   Jon Campbell
-:::
-
-::: {.column width="50%"}
--   Foxx Hart
--   Netra MittalAlexa Fahrer
--   Devin Johnson
--   Konnie Huang
--   Li Fan
--   Kelly Huang
--   Leah Johnson
--   Lisa Zhang
--   Miles King
--   Noah Obuya
-:::
-:::
-
-## Meet each other!
-
-```{r}
-#| echo: false
-
-countdown(minutes = 3, font_size = "5rem")
-```
+:::::
 
 ## Meet data science
 
@@ -116,7 +70,7 @@ countdown(minutes = 3, font_size = "5rem")
 
 ## 
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r echo=FALSE, out.width="75%", fig.align="left"}
 knitr::include_graphics("images/google-trend-index.png")
@@ -144,7 +98,7 @@ travel <- tribble(
 travel
 ```
 :::
-:::
+:::::
 
 ## Communicate
 
@@ -172,7 +126,7 @@ Or more like demo for today...
 
 ## Homepage
 
-[https://sta199-s24.github.io](https://sta199-s24.github.io/){.uri}
+[https://renr213-w25.github.io](https://renr213-w25.github.io/){.uri}
 
 -   All course materials
 -   Links to Canvas, GitHub, RStudio containers, etc.
@@ -202,14 +156,12 @@ All linked from the course website:
 
 -   Each exam comprised of two parts:
 
-    -   In class: 75 minute in-class exam.
-        Closed book, one sheet of notes (“cheat sheet”, no larger than 8 1/2 x 11, both sides, **must be prepared by you**) – 70% of the grade
+    -   In class: 75 minute in-class exam. Closed book, one sheet of notes (“cheat sheet”, no larger than 8 1/2 x 11, both sides, **must be prepared by you**) – 70% of the grade
 
     -   Take home: The take home portion will follow from the in class exam and focus on the analysis of a dataset introduced in the take home exam – 30% of the grade
 
 ::: callout-caution
-Exam dates cannot be changed and no make-up exams will be given.
-If you can’t take the exams on these dates, you should drop this class.
+Exam dates cannot be changed and no make-up exams will be given. If you can’t take the exams on these dates, you should drop this class.
 :::
 
 ## Project {.smaller}
@@ -227,9 +179,7 @@ If you can’t take the exams on these dates, you should drop this class.
 -   Some lab sessions allocated to working on projects, doing peer review, getting feedback from TAs
 
 ::: callout-caution
-Final presentation date cannot be changed.
-If you can’t present on that date, you should drop this class.
-You must complete the project to pass this class.
+Final presentation date cannot be changed. If you can’t present on that date, you should drop this class. You must complete the project to pass this class.
 :::
 
 ## Teams
@@ -254,7 +204,7 @@ You must complete the project to pass this class.
 
 No specific points allocated to attendance, but attendance will be recorded periodically throughout the semester, and this information will be used as “extra credit” if you’re in between two grades and a minor bump would help.
 
-See [course syllabus](https://sta199-f22-1.github.io/course-syllabus.html) for how the final letter grade will be determined.
+See [course syllabus](https://renr213-w25.github.io/course-syllabus.html) for how the final letter grade will be determined.
 
 ## Support
 
@@ -279,12 +229,6 @@ It is my intent that students from all diverse backgrounds and perspectives be w
 -   I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it.
 :::
 
-## Accessibility
-
--   The [Student Disability Access Office (SDAO)](https://access.duke.edu/students) is available to ensure that students are able to engage with their courses and related assignments.
-
--   I am committed to making all course materials accessible and I'm always learning how to do this better.
-    If any course component is not accessible to you in any way, please don't hesitate to let me know.
 
 # Course policies
 
@@ -313,6 +257,3 @@ It is my intent that students from all diverse backgrounds and perspectives be w
 -   Read the syllabus
 -   Start readings for next week
 
-## Midori says...
-
-[![](images/midori.jpeg){fig-alt="Picture of my cat, Midori, with a speech bubble that says \"Read the syllabus and make Mine happy!\"" fig-align="center" width="700"}](https://sta199-f22-1.github.io/course-syllabus.html)
